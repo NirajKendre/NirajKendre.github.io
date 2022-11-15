@@ -122,6 +122,7 @@ figure {
   #colorlib-aside #colorlib-main-menu {
     display: block;
     width: 100%; }
+    
     #colorlib-aside #colorlib-main-menu .collapse {
       display: block !important; }
     #colorlib-aside #colorlib-main-menu ul {
@@ -380,8 +381,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 3em;
+  padding-bottom: 5em;
   clear: both;
   width: 100%;
   display: block; }
@@ -924,7 +925,8 @@ body.offcanvas {
   .work-menu span a {
     color: #000; }
     .work-menu span a.active {
-      color: #2c98f0; }
+      color: #2c98f0; 
+    }
 
 .project {
   background-size: cover;
@@ -941,7 +943,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    /* background: #2c98f0; */
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -1475,9 +1477,19 @@ body.offcanvas {
 
 
 @media only screen and (min-width: 421px) and (max-width: 760px) {
-      .calendar{
+      .calendar>svg{
         
-        width: 50%;
+        width: 80%;
 
       }
   }
+
+.statcs-div>img{
+  width: 50%;
+}  
+@media only screen and (min-width: 421px) and (max-width: 760px) {
+    .statcs-div{
+    
+      width: 80%;    
+    }
+}
